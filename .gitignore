@@ -1,0 +1,22 @@
+# --- Canteen Management System .gitignore ---
+
+# Nothing secret is stored here, but keep the OS junk out of the repo.
+Thumbs.db
+Desktop.ini
+.DS_Store
+
+# Editor / IDE files
+.vscode/
+.idea/
+*.swp
+
+# Local logs (if PHP ever writes any here)
+*.log
+
+# NOTE:
+# The database password lives in includes/config.php, but for this
+# diploma project it is EMPTY (XAMPP default: root with no password),
+# so it is safe to keep that file in the repository.
+
+# Leftover from the XAMPP installer (cannot be deleted while Windows holds it)
+xampp-control.ini
